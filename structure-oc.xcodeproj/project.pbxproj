@@ -118,6 +118,14 @@
 		2B678F931DB9CC4C006EBA23 /* structure-oc */ = {
 			isa = PBXGroup;
 			children = (
+				2B678FC71DB9DFDA006EBA23 /* Application */,
+				2B678FC81DB9DFDA006EBA23 /* Categories */,
+				2B678FC91DB9DFDA006EBA23 /* Common */,
+				2B678FCA1DB9DFDA006EBA23 /* Controllers */,
+				2B678FCB1DB9DFDA006EBA23 /* Models */,
+				2B678FCC1DB9DFDA006EBA23 /* Resources */,
+				2B678FCD1DB9DFDA006EBA23 /* Vendor */,
+				2B678FCE1DB9DFDA006EBA23 /* Views */,
 				2B678F971DB9CC4C006EBA23 /* AppDelegate.h */,
 				2B678F981DB9CC4C006EBA23 /* AppDelegate.m */,
 				2B678F9A1DB9CC4C006EBA23 /* ViewController.h */,
@@ -155,6 +163,62 @@
 				2B678FBB1DB9CC4C006EBA23 /* Info.plist */,
 			);
 			path = "structure-ocUITests";
+			sourceTree = "<group>";
+		};
+		2B678FC71DB9DFDA006EBA23 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2B678FC81DB9DFDA006EBA23 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		2B678FC91DB9DFDA006EBA23 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2B678FCA1DB9DFDA006EBA23 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2B678FCB1DB9DFDA006EBA23 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2B678FCC1DB9DFDA006EBA23 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2B678FCD1DB9DFDA006EBA23 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		2B678FCE1DB9DFDA006EBA23 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		4250A8822929DAB11FC38F4B /* Frameworks */ = {
