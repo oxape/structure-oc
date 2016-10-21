@@ -126,7 +126,6 @@
 				2B678FCC1DB9DFDA006EBA23 /* Resources */,
 				2B678FCD1DB9DFDA006EBA23 /* Vendor */,
 				2B678FCE1DB9DFDA006EBA23 /* Views */,
-				2B678F9D1DB9CC4C006EBA23 /* Main.storyboard */,
 				2B678FA01DB9CC4C006EBA23 /* Assets.xcassets */,
 				2B678FA21DB9CC4C006EBA23 /* LaunchScreen.storyboard */,
 				2B678FA51DB9CC4C006EBA23 /* Info.plist */,
@@ -225,6 +224,7 @@
 			children = (
 				2B678FD31DB9E0F0006EBA23 /* MainViewController.h */,
 				2B678FD41DB9E0F0006EBA23 /* MainViewController.m */,
+				2B678F9D1DB9CC4C006EBA23 /* Main.storyboard */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -563,6 +563,7 @@
 				2B678F9E1DB9CC4C006EBA23 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		2B678FA21DB9CC4C006EBA23 /* LaunchScreen.storyboard */ = {
