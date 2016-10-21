@@ -15,6 +15,9 @@
 		2B678FBA1DB9CC4C006EBA23 /* structure_ocUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B678FB91DB9CC4C006EBA23 /* structure_ocUITests.m */; };
 		2B678FD11DB9E052006EBA23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B678FD01DB9E052006EBA23 /* AppDelegate.m */; };
 		2B678FD51DB9E0F0006EBA23 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B678FD41DB9E0F0006EBA23 /* MainViewController.m */; };
+		2B678FD81DB9E5F6006EBA23 /* UIImage+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B678FD71DB9E5F6006EBA23 /* UIImage+Scale.m */; };
+		2B678FDB1DB9E616006EBA23 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B678FDA1DB9E616006EBA23 /* BaseModel.m */; };
+		2B678FDD1DB9E624006EBA23 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B678FDC1DB9E624006EBA23 /* FontAwesome.ttf */; };
 		6F0C6DCCAB6B9BA7A505C860 /* libPods-structure-oc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C87F6757883C33DCA49EA3 /* libPods-structure-oc.a */; };
 		9CC115354B8790C8261B8F0D /* libPods-structure-ocUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6663E171F6B53572F1A5EB4E /* libPods-structure-ocUITests.a */; };
 		C1E0331249FDA1DE6DC67BF7 /* libPods-structure-ocTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FEC1E9B76A1697DD1E30C98 /* libPods-structure-ocTests.a */; };
@@ -56,6 +59,11 @@
 		2B678FD01DB9E052006EBA23 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2B678FD31DB9E0F0006EBA23 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		2B678FD41DB9E0F0006EBA23 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		2B678FD61DB9E5F6006EBA23 /* UIImage+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Scale.h"; path = "../Common/UIImage+Scale.h"; sourceTree = "<group>"; };
+		2B678FD71DB9E5F6006EBA23 /* UIImage+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Scale.m"; path = "../Common/UIImage+Scale.m"; sourceTree = "<group>"; };
+		2B678FD91DB9E616006EBA23 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		2B678FDA1DB9E616006EBA23 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		2B678FDC1DB9E624006EBA23 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
 		2FEC1E9B76A1697DD1E30C98 /* libPods-structure-ocTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-structure-ocTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31168D1F2975CF9F7F8B4C9F /* Pods-structure-ocUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-structure-ocUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-structure-ocUITests/Pods-structure-ocUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5650DDA608C4073E79E8D720 /* Pods-structure-ocTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-structure-ocTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-structure-ocTests/Pods-structure-ocTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -119,13 +127,14 @@
 			isa = PBXGroup;
 			children = (
 				2B678FC71DB9DFDA006EBA23 /* Application */,
+				2B678FCB1DB9DFDA006EBA23 /* Models */,
+				2B678FCE1DB9DFDA006EBA23 /* Views */,
+				2B678FCA1DB9DFDA006EBA23 /* Controllers */,
 				2B678FC81DB9DFDA006EBA23 /* Categories */,
 				2B678FC91DB9DFDA006EBA23 /* Common */,
-				2B678FCA1DB9DFDA006EBA23 /* Controllers */,
-				2B678FCB1DB9DFDA006EBA23 /* Models */,
-				2B678FCC1DB9DFDA006EBA23 /* Resources */,
+				2B678FDE1DB9E67E006EBA23 /* Utils */,
 				2B678FCD1DB9DFDA006EBA23 /* Vendor */,
-				2B678FCE1DB9DFDA006EBA23 /* Views */,
+				2B678FCC1DB9DFDA006EBA23 /* Resources */,
 				2B678FA01DB9CC4C006EBA23 /* Assets.xcassets */,
 				2B678FA21DB9CC4C006EBA23 /* LaunchScreen.storyboard */,
 				2B678FA51DB9CC4C006EBA23 /* Info.plist */,
@@ -172,6 +181,8 @@
 		2B678FC81DB9DFDA006EBA23 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				2B678FD61DB9E5F6006EBA23 /* UIImage+Scale.h */,
+				2B678FD71DB9E5F6006EBA23 /* UIImage+Scale.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -194,6 +205,8 @@
 		2B678FCB1DB9DFDA006EBA23 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2B678FD91DB9E616006EBA23 /* BaseModel.h */,
+				2B678FDA1DB9E616006EBA23 /* BaseModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -201,6 +214,7 @@
 		2B678FCC1DB9DFDA006EBA23 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2B678FDC1DB9E624006EBA23 /* FontAwesome.ttf */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -227,6 +241,14 @@
 				2B678F9D1DB9CC4C006EBA23 /* Main.storyboard */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		2B678FDE1DB9E67E006EBA23 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utils;
+			path = Views/Utils;
 			sourceTree = "<group>";
 		};
 		4250A8822929DAB11FC38F4B /* Frameworks */ = {
@@ -372,6 +394,7 @@
 				2B678FA41DB9CC4C006EBA23 /* LaunchScreen.storyboard in Resources */,
 				2B678FA11DB9CC4C006EBA23 /* Assets.xcassets in Resources */,
 				2B678F9F1DB9CC4C006EBA23 /* Main.storyboard in Resources */,
+				2B678FDD1DB9E624006EBA23 /* FontAwesome.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,6 +544,8 @@
 			files = (
 				2B678F961DB9CC4C006EBA23 /* main.m in Sources */,
 				2B678FD51DB9E0F0006EBA23 /* MainViewController.m in Sources */,
+				2B678FD81DB9E5F6006EBA23 /* UIImage+Scale.m in Sources */,
+				2B678FDB1DB9E616006EBA23 /* BaseModel.m in Sources */,
 				2B678FD11DB9E052006EBA23 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
